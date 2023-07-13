@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <nav class="nav"> 
+    <div class="btn__wrapper">
+      <button class="register" onclick="createUser()">Register</button>
+
+      <button class="login" onclick="loginUser()">Login</button>
+
+      <button class="delete" onclick="deleteUser()">Delete</button>
+    </div>
+
+  </nav>
+
+
+  <div class="container">
+  <content class="content">
+    <div class="content-wrapper">
+
+      <div class="left-side">
+        <div class="group-title__wrapper">
+          <img class="logo" src="./mg/makers.png" alt="">
+          <h1 class="title">Javaзавры</h1>
+        </div>
+
+        <h3 class="in-system"></h3>
+
+        <h4 class="users">
+          Участники:
+        </h4>
+
+        <ul class="names">
+
+        </ul>
+        
+      </div>
+  
+      <div class="right-side">
+        <div class="messages__wrapper">
+          <ul class="messages"></ul>
+    
+          <div class="btns__wrapper">
+            <button class="send" onclick="sendMessage()">Send message</button>
+        
+            <button class="get" onclick="deleteMessage()">Delete message</button>
+          </div>
+        </div>
+        
+        <div class="id__names">
+          <ul class="ids">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </content>
+</body>
+</html>

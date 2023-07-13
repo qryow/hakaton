@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Font") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotham', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: #38363a;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.left-side {
+  background-color: #e0e0e0;
+  width: 35%;
+  height: 900px;
+}
+.in-system {
+  color: #0c52bb;
+  margin: 10px 0 5px 30px;
+}
+.users {
+  color: rgb(158, 134, 134);
+  margin: 15px 30px 15px; 
+}
+.group-title__wrapper {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0;
+}
+.logo {
+  width: 130px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.title {
+  color: #070707;
+
+}
+.btn__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.register {
+  width: 200px;
+  height: 45px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #908a99;
+  color: #fffdfd;
+  border: 1px solid #4d4646;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-family: 'Gotham', sans-serif;
+}
+
+.login {
+  width: 200px;
+  height: 45px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #908a99;
+  color: #fffdfd;
+  border: 1px solid #5f5656;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-family: 'Gotham', sans-serif;
+}
+
+.delete {
+  width: 200px;
+  height: 45px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #908a99;
+  color: #fffdfd;
+  border: 1px solid #4d4848;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-family: 'Gotham', sans-serif;
+}
+
+
+.right-side {
+  width: 85%;
+  background-color: rgb(211, 205, 205);
+  display: flex;
+}
+.id__names {
+  width: 40%;
+  background-color: #676469;
+}
+.ids {
+  /*width: 40%;*/
+  margin: 30px 0;
+}
+li {
+  /*display: inline;*/
+  width: 90%;
+  padding: 10px 30px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  border-radius: 5px;
+  background-color: #bfbbaf;
+}
+.messages__wrapper {
+  height: 100%;
+  width: 60%;
+  border: 1px solid #362c33;
+  display: flex;
+  flex-direction: column;
+  color: #3d3535;
+  padding: 50px 0;
+}
+.messages {
+  margin-bottom: 50px;
+}
+.btns__wrapper {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.send {
+  width: 550px;
+  height: 45px;
+  /*padding: 5px;*/
+  /*margin: 45px 0;*/
+  background-color: #bfbbaf;
+  color: #796666;
+  border: 1px solid #69675e;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-family: 'Gotham', sans-serif;
+}
+.get {
+  width: 200px;
+  height: 45px;
+  padding: 5px;
+  /*margin: 45px 0;*/
+  background-color: #cf1313;
+  color: #fffdfd;
+  border: 1px solid #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-family: 'Gotham', sans-serif;
+}
