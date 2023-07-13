@@ -234,7 +234,6 @@ function readMessage() {
       to : ${message.to}</li>`;
     }
   }
-  deleteUser()
 }
 readMessage();
 
@@ -261,4 +260,3 @@ function readIds() {
   }
 }
 readIds();
-deleteUser()
